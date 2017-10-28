@@ -1,0 +1,19 @@
+{
+  "name": "sim-2-jnk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenndawg/sim-2-jnk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenndawg/sim-2-jnk/issues"
+  },
+  "homepage": "https://github.com/tenndawg/sim-2-jnk#readme"
+}
