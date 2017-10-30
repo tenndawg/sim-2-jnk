@@ -1,50 +1,143 @@
-.shelfie_Body {
-    width: 100%;
-    height: 80px;
-    background-color: #ab2a19;
+.login_Body {
+  /* Controlling the width and color of background */
+  width: 700px;
+  height: auto;
+  background-color: #ffffff;
 
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-  }
+  /* Controlling and Centering all objects
+  within the Login_Body div */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+}
 
-  .top_bar {
-    width: 500px;
-    height: 70px;
-    margin: 5px 0px 20px 0px;
-    padding: 0px 0px 0px px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    color: #FFFFFF;
-    background-color: #ab2a19;
-  }
+.login_Body_Image {
+  /* Controlling width to match login_Body forcing
+  image presents so the input form always stay below */
+  width: 700px;
+  margin: 150px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  /* Controlling and Centering all objects */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  /* This insures the background on image div will
+  always stay the same color as login_Body div */
+  background: #ffffff;
+}
 
-  .top_bar img {
-    width: 70px;
-    height: 70px;
-    margin: 0px 10px 0px 0px;
-    padding: 0px 0px 0px px;
-    vertical-align: middle;
-  }
+/* Controlling Image Size */
+.login_Body_Image img {
+  width: 125px;
+  height: 125px;
+}
 
-  .buttonBox {
-      width: 500px;
-  }
+.login_ICON_Text {
+  /* Controlling width to match login_Body forcing
+  input form alignment with image and content */
+  width: 700px;
+  height: 40px;
+  margin: 0px 0px 40px 0px;
+  padding: 0px 0px 0px 0px;
+  /* Text Control */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color:#3b5249;
+  text-align: center;
+  /* This insures the background on ICON Text div
+  stays the same color as the login_Body div */
+  background: #ffffff;
+}
 
-  .buttonBoxB {
-      width: 500px;
-      height: 70px;
-      margin: 10px 0px 10px 0px;
-      padding: 0px 0px 0px 130px;
-      border-radius: 15px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: 900;
-      font-size: 30px;
-      color: #FFFFFF;
-      background: #d34735;
-      text-align: left;
-  }
+.login_Form {
+  /* Controlling width to match login_Body forcing
+  input form alignment with image and content */
+  width: 700px;
+  height: 140px;
+  margin: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 0px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  color:#000000;
+  text-align: left;
+  /* This insures the background on input form div
+  will always stay the same color as login_Body div */
+  background: #ffffff;
+}
+
+.userButtonBox {
+  width: 500px;
+  height: 30px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 10px 0xp;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+  border-color: #afd4c0;
+  background-color: #FFFFFF;
+}
+
+.passButtonBox {
+  width: 500px;
+  height: 30px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0xp;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+  border-color: #afd4c0;
+  background-color: #FFFFFF;
+}
+
+.logRegButtons {
+  /* Controlling width to match login_Body forcing
+  button placement under form */
+  width: 700px;
+  height: 120px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.userButton {
+  width: 100px;
+  height: 30px;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 0px 0px 0xp;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #8AEA92;
+}
+
+.passButton {
+  width: 100px;
+  height: 30px;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 0px 0px 0xp;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #3B5249;
+}
