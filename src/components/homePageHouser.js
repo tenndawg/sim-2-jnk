@@ -3,34 +3,19 @@ import { BrowserRouter, Link } from 'react-router-dom';
 
 import '../css/homePageHouser.css';
 
-class SHELFIE_HOME extends Component {
+class HouserHome extends Component {
     render() {
-        return(
+        return(    
+            <div>
             <div className='shelfie_Body' >
-                
                 <div className='top_bar'>
-                    <img src={SHELFIE_ICON} alt='Shelfie Icon' />
-                    SHELFIE
                 </div>
-
-                <div className='buttonBox'>
-                    <Link to="/shelf_A" >
-                        <button className='buttonBoxB'>Shelf A</button>
-                    </Link>
-                    <Link to="/shelf_B" >
-                        <button className='buttonBoxB'>Shelf B</button>
-                    </Link>
-                    <Link to="/shelf_C" >
-                        <button className='buttonBoxB'>Shelf C</button>
-                    </Link>
-                    <Link to="/shelf_D" >
-                        <button className='buttonBoxB'>Shelf D</button>
-                    </Link>
+            </div>
+            <div className='buttonBox'>
                 </div>
-                    
             </div>
         );
     }
 }
 
-export default SHELFIE_HOME;
+export default HouserHome;
