@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 
-import '../css/homePageHouser.css';
+import '../css/dashboard.css';
 
-class HouserHome extends Component {
+class Dashboard extends Component {
     render() {
         return(    
             <div>
-            <div className='shelfie_Body' >
-                <div className='top_bar'>
-                </div>
+            <div className='top_bar'>
             </div>
             <div className='buttonBox'>
                 </div>
@@ -18,4 +16,4 @@ class HouserHome extends Component {
     }
 }
 
-export default HouserHome;
+export default Dashboard;

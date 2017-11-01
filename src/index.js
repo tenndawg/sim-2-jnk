@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import HomePageHouser from './components/homePageHouser';
+// import './index.css';
+import Dashboard from './components/Dashboard';
 
 ReactDOM.render(
-<HomePageHouser />,
+<Dashboard />,
 document.getElementById('root'));
