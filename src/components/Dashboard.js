@@ -6,10 +6,8 @@ import '../css/dashboard.css';
 class Dashboard extends Component {
     render() {
         return(    
-            <div>
             <div className='top_bar'>
-            </div>
-            <div className='buttonBox'>
+                <div className='buttonBox'>
                 </div>
             </div>
         );
