@@ -73,13 +73,12 @@ align-content: center;
 }
 
 .buttonBox {
-    width: 50%;
-    height: 1000px;
+    width: 100%;
+    height: auto;
+    min-height: 900px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
   align-content: center;
     background: linear-gradient(to bottom, #e2f3ea, #ffffff);
 }
