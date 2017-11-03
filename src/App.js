@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Dashboard from './components/Dashboard';
 import homePageHouser from './components/homePageHouser';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import './app.css';
+import './index.css';
 
 class App extends Component {
   render() {
