@@ -1,17 +1,18 @@
 .login_Body {
   /* Controlling the width and color of background */
-  width: 700px;
-  height: auto;
+  width: 50%;
+  height: 100vh;
+  min-height: 850px;
+  min-width: 850px;
   background-color: #ffffff;
 
   /* Controlling and Centering all objects
   within the Login_Body div */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
-  align-content: center;
+  align-items: center;
 }
 
 .login_Body_Image {
@@ -59,7 +60,7 @@
 .login_Form {
   /* Controlling width to match login_Body forcing
   input form alignment with image and content */
-  width: 700px;
+  width: 70%;
   height: 140px;
   margin: 0px 0px 0px 100px;
   padding: 0px 0px 0px 0px;
@@ -117,7 +118,7 @@
 .userButton {
   width: 100px;
   height: 30px;
-  margin: 0px 10px 0px 10px;
+  margin: 15px 10px 0px 10px;
   padding: 0px 0px 0px 0xp;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -131,7 +132,7 @@
 .passButton {
   width: 100px;
   height: 30px;
-  margin: 0px 10px 0px 10px;
+  margin: 15px 10px 0px 10px;
   padding: 0px 0px 0px 0xp;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
