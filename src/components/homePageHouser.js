@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
+
+// Image support for the "homePageHouser"
 import HOUSE_ICON from '../images/houseICON.png';
 
-
+// css used to control the homePageHouser route page component
 import '../css/homePageHouser.css';
 
 class SHELFIE_HOME extends Component {
@@ -38,18 +40,22 @@ class SHELFIE_HOME extends Component {
                     /> 
                 </div>
                 <div className='logRegButtons' >
-                    <button
-                        className='userButton'
-                        onClick=''
-                        >
-                        Login
-                    </button>
-                    <button
-                        className='passButton'
-                        onClick=''
-                        >
-                        Register
-                    </button>
+                    <Link to='./Dashboard'>
+                        <button
+                            className='userButton'
+                           
+                            >
+                            Login
+                        </button>
+                    </Link>
+                    <Link to='./'>
+                        <button
+                            className='passButton'
+                            
+                            >
+                            Register
+                        </button>
+                    </Link>
                 </div>
                     
             </div>
