@@ -22,7 +22,7 @@ class Dashboard extends Component {
                 </div>
                 <button class="Dashboard__button_new lightest_green_bgc open-sans-bold">Add new property</button>
                     <div className="Filter__container">
-                        <span class="open-sans Filter__description">List properties with "desired rent" greator than: $</span>
+                        <span class="open-sans Filter__description">List properties with "desired rent" greater than: $</span>
                         <input className="open-sans dark_green_border Filter__input" placeholder="0" value="" />
                         <button className="open-sans lightest_green_bgc Filter__btn"> Filter </button>
                         <button className="open-sans darkest_green_bgc Filter__btn Filter__btn_reset"> Reset </button>
