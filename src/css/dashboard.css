@@ -118,6 +118,10 @@ align-content: center;
   align-items: center;
 }
 
+.Header__right_container a {
+  text-decoration: none;
+}
+
 .Header__right_span {
   color: white;
   cursor: pointer;
@@ -174,6 +178,11 @@ align-content: center;
   padding: 10px;
   cursor: pointer;
   margin-bottom: 30px;
+}
+
+.Dashboard__button_new a {
+  text-decoration: none;
+  color: black;
 }
 
 .darkest_green_bgc {
