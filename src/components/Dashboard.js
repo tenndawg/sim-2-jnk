@@ -7,20 +7,28 @@ import '../index.css';
 class Dashboard extends Component {
     render() {
         return(    
-            <div className="Dashboard__container">
+            <div className='Dashboard__container'>
                 <div className='top_bar'>
                     <div className='Header__child'>
-                        <img src={ navicon } />
-                        <span className='Header__left_span open-sans-bold'>Houser</span>
+                        <div className="Header__left_container">
+                            <img src={ navicon } />
+                            <span className='Header__left_span open-sans-bold'>Houser</span>
+                            <span className='Header__left_span open-sans'>Dashboard</span>
+                        </div>
+                        <div className='Header__right_container'>
+                            <span className='Header__right_span bold'>Logout</span>
+                        </div>
                     </div>
                 </div>
-                <div className='buttonBox'>
-                    <div className='divBox'>
-                        <p className='colorBox'><b>Add New Property</b></p>
-
-                        <p className='desiredRent'>List properties with "desired rent" greater than: $ </p>
+                <button class="Dashboard__button_new lightest_green_bgc open-sans-bold">Add new property</button>
+                    <div className="Filter__container">
+                        <span class="open-sans Filter__description">List properties with "desired rent" greator than: $</span>
+                        <input className="open-sans dark_green_border Filter__input" placeholder="0" value="" />
+                        <button className="open-sans lightest_green_bgc Filter__btn"> Filter </button>
+                        <button className="open-sans darkest_green_bgc Filter__btn Filter__btn_reset"> Reset </button>
                     </div>
-                </div>
+                    <div class="Dashboard__homeSpan_container"><span class="open-sans-bold"> Home Listings </span></div>
+                    <div class="Dashboard__properties_container"></div>
             </div>
         );
     }
